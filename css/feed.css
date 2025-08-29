@@ -1,0 +1,34 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    background-color: black;
+}
+#menu{
+    width: 20%;
+    height: 100vh;
+    border-right:1px solid white ;
+    display: flex;
+    padding-left: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 40px;
+    
+}
+#menu img {
+ width: 150px;
+ height: 100px;
+}
+#menu a{
+    color: rgb(186, 186, 186);
+    font-size: 20px;
+    text-decoration: none;
+}
