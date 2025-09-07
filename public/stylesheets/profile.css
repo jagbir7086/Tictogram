@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+   overflow-x: auto;  
+  overflow-y: auto;  
+}
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: #a8679f;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav1 {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav1 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.nav1 h1 {
+  font-size: 40px;
+  font-weight: 100px;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+.nav3 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav3 h3 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.buttons {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.buttons a {
+  font-size: medium;
+  font-family: sans-serif;
+}
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(168, 103, 159);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer1 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer2 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer2 img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.footer3 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section{
+    height: 70vh;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part1{
+    height: 80%;
+    width: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.part2{
+    height: 80%;
+    width: 45%;
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+}

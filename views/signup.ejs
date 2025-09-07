@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>SignUp</title>
+</head>
+<body>
+    <nav>
+        <div class="nav1">
+            <i class="ri-goblet-2-fill"></i>
+            <h1>Velvet & Vines</h1>
+        </div>
+        <div class="nav3">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/Contacts">Contacts</a></li>
+                <li><a href="/About">About</a></li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="/login"><h3 style="color:white ; text-decoration: underline">LogIn</h3></a>
+            <a href="/"><h3 style="color:white ; text-decoration: underline">Home</h3></a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Welcome to Velvet & Vines</h1>
+        <p>Your one-stop shop for all things velvet and vine.</p>
+    </header>
+
+    <section>
+        <div class="box">
+            <div class="part1">
+                <h1>SignUp</h1>
+            </div>
+            <div class="part2">
+                <!-- ✅ Fixed form action -->
+                <form action="/signup" method="POST" enctype="multipart/form-data">
+                    <div class="name">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="upload">
+                        <label>Upload Profile Pic</label>
+                        <input type="file" name="profilePic" accept="image/*">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="pwd">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter password" required>
+                    </div>
+
+                    <!-- ✅ Submit button INSIDE form -->
+                    <div class="part3">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <h3>mail@velvetandvines.org</h3>
+        </div>
+        <div class="footer2">
+            <img src="../images/logo.png" alt="">
+            <h3>Jagbir Singh</h3>
+        </div>
+        <div class="footer3">
+            <h3>®2025</h3>
+        </div>
+    </footer>
+</body>
+</html>

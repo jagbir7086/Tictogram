@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(245, 7, 214);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav1 {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav1 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.nav1 h1 {
+  font-size: 40px;
+  font-weight: 100px;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+.nav3 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav3 ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.nav3 h3 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.buttons {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.buttons a {
+  font-size: medium;
+  font-family: sans-serif;
+}
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(245, 7, 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer1 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer2 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer2 img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.footer3 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(245, 7, 213, 0.727);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 60vh;
+    width: 80vh;
+    background-color: rgba(245, 7, 213, 0.47);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box h1{
+    color:white;
+    font-size: 30px;
+}
+.box h2{
+    color:white;
+    font-size: 20px;
+}
