@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    /* height: 100%; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#rapper{
+    width: 80%;
+    height: 100vh;
+    background-color: #0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#top{
+    width: 30%;
+    height: 70%;
+    /* background-color: ; */
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   padding-left: 30px;
+   padding-right: 30px;
+   
+}
+#top img{
+    width: 50%;
+    margin-left: 90px;   
+    height: 100px;
+}
+#top form{
+    width: 100%;
+    height: 33%;
+    /* background-color: beige; */
+   
+}
+#top form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#top form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3441AF;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+#top h5{
+    color:white;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+#top h5::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px ;
+    background-color: white;
+    left: 0;
+    top: 50%;
+}
+#top h5::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px ;
+    background-color: white;
+    right: 0;
+    top: 50%;
+}
+#top #fb{
+    text-align: center;
+    color: #2031cb;
+    margin-left: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#top h4{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#top p{
+    color: white;
+    text-align: center;
+    font-family: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+#top p a{
+    color: #2031cb;
+    text-decoration: none;
+}
+
+#middle{
+    width: 30%;
+    height: 10%;
+    /* background-color: ; */
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#middle  h4{
+color: white;
+
+}
+#middle  h4 a{
+    color: #2031cb;
+    text-decoration: none;
+}
+#bottom{
+    width: 80%;
+    height: 10%;
+    text-align: center;
+}
+#bottom a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
